@@ -1,0 +1,13 @@
+[package]
+name = "grand-pattern-net"
+version = "0.1.0"
+edition = "2021"
+description = "Networking layer — UDP gossip, TCP transport, peer discovery, distributed tick coordination"
+
+[lib]
+name = "grand_pattern_net"
+path = "src/lib.rs"
+
+[[bin]]
+name = "grand-pattern-net"
+path = "src/main.rs"
